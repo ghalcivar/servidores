@@ -1,5 +1,5 @@
 <?php
-class DependsTest extends PHPUnit_Framework_TestCase
+class DependsTest extends _Framework_TestCase
 {
     public function testEmpty()
     {
