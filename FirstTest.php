@@ -2,7 +2,7 @@
 
 namespace App\Tests;
  
-class FirstTest extends \PHPUnit_Framework_TestCase
+class FirstTest extends _Framework_TestCase
 {
     public function testPushAndPop()
     {
