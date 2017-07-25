@@ -2,7 +2,7 @@
  
 class FirstTest extends _Framework_TestCase
 {
-    public function testPushAndPop()
+    public func testPushAndPop()
     {
         $stack = array();
         $this->assertEquals(1, count($stack));
