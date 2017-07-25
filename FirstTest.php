@@ -8,6 +8,9 @@ class FirstTest extends \PHPUnit_Framework_TestCase
     {
         $stack = array();
         $this->assertEquals(1, count($stack));
+     ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
  
         array_push($stack, 'foo');
         $this->assertEquals('foo', $stack[count($stack)-1]);
