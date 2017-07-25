@@ -1,4 +1,4 @@
-<?php
+<?
 class DependsTest extends _Framework_TestCase
 {
     public function testEmpty()
