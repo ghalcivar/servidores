@@ -8,7 +8,7 @@ class DependsTest extends PHPUnit_Framework_TestCase
  
         return $stack;
     }
- 
+ helloworld
     /**
      * @depends testEmpty
      */
