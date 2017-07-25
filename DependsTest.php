@@ -26,7 +26,7 @@ class DependsTest extends PHPUnit_Framework_TestCase
     public function testPop(array $stack)
     {
         $this->assertEquals('foo', array_pop($stack));
-        $this->assertEmpty($sta);
+        $this->assertEmpty($stack);
     }
 }
 ?>
