@@ -1,6 +1,4 @@
 <?
-
-namespace App\Tests;
  
 class FirstTest extends _Framework_TestCase
 {
